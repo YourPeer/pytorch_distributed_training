@@ -4,9 +4,10 @@
 
 1、创建data文件夹  
 2、将代码文件里的CIFAR10函数中的download参数改为True  
-
-  trainset=CIFAR10(data_dir, train=True, transform=transform, target_transform=None, download=True)
+```python
+  trainset=CIFAR10(data_dir, train=True, transform=transform, target_transform=None, download=True)  
   testset = CIFAR10(data_dir, train=False,download=True, transform=transform)
+```
 
 测试结果：  
 
